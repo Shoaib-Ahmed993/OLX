@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/OLX/static/css/main.9cd1213d.chunk.css",
-    "main.js": "/OLX/static/js/main.e3ddff34.chunk.js",
-    "main.js.map": "/OLX/static/js/main.e3ddff34.chunk.js.map",
-    "runtime-main.js": "/OLX/static/js/runtime-main.28a5d580.js",
-    "runtime-main.js.map": "/OLX/static/js/runtime-main.28a5d580.js.map",
-    "static/js/2.70274735.chunk.js": "/OLX/static/js/2.70274735.chunk.js",
-    "static/js/2.70274735.chunk.js.map": "/OLX/static/js/2.70274735.chunk.js.map",
-    "static/js/3.a5468d75.chunk.js": "/OLX/static/js/3.a5468d75.chunk.js",
-    "static/js/3.a5468d75.chunk.js.map": "/OLX/static/js/3.a5468d75.chunk.js.map",
-    "index.html": "/OLX/index.html",
-    "static/css/main.9cd1213d.chunk.css.map": "/OLX/static/css/main.9cd1213d.chunk.css.map",
-    "static/js/2.70274735.chunk.js.LICENSE.txt": "/OLX/static/js/2.70274735.chunk.js.LICENSE.txt",
-    "static/media/guitar.1f665193.webp": "/OLX/static/media/guitar.1f665193.webp",
-    "static/media/slider.1b1a21dd.jpg": "/OLX/static/media/slider.1b1a21dd.jpg"
+    "main.css": "/olx/static/css/main.9cd1213d.chunk.css",
+    "main.js": "/olx/static/js/main.e3ddff34.chunk.js",
+    "main.js.map": "/olx/static/js/main.e3ddff34.chunk.js.map",
+    "runtime-main.js": "/olx/static/js/runtime-main.7976c330.js",
+    "runtime-main.js.map": "/olx/static/js/runtime-main.7976c330.js.map",
+    "static/js/2.70274735.chunk.js": "/olx/static/js/2.70274735.chunk.js",
+    "static/js/2.70274735.chunk.js.map": "/olx/static/js/2.70274735.chunk.js.map",
+    "static/js/3.a5468d75.chunk.js": "/olx/static/js/3.a5468d75.chunk.js",
+    "static/js/3.a5468d75.chunk.js.map": "/olx/static/js/3.a5468d75.chunk.js.map",
+    "index.html": "/olx/index.html",
+    "static/css/main.9cd1213d.chunk.css.map": "/olx/static/css/main.9cd1213d.chunk.css.map",
+    "static/js/2.70274735.chunk.js.LICENSE.txt": "/olx/static/js/2.70274735.chunk.js.LICENSE.txt",
+    "static/media/guitar.1f665193.webp": "/olx/static/media/guitar.1f665193.webp",
+    "static/media/slider.1b1a21dd.jpg": "/olx/static/media/slider.1b1a21dd.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.28a5d580.js",
+    "static/js/runtime-main.7976c330.js",
     "static/js/2.70274735.chunk.js",
     "static/css/main.9cd1213d.chunk.css",
     "static/js/main.e3ddff34.chunk.js"
