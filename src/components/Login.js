@@ -13,7 +13,7 @@ export const Modal = ({ handleClose, show, children }) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-3" style={{textAlign: "center", marginBottom: 20}}>
-                                <img src={guitar} style={{padding: "15px 8px 0 10px", marginLeft: "25px"}}  width={100} />
+                                <img src={guitar} alt="guitar" style={{padding: "15px 8px 0 10px", marginLeft: "25px"}}  width={100} />
                                 <p className="color s16">Help make OLX safer place to buy and sell</p>
                                 <div  className="color s14 hov" style={{border: "2px solid #000", padding: 10, margin:"100px 10px 10px 10px"}}>
                                     <h3 className="fontb " style={{marginLeft: 10}}>Continue with phone</h3>

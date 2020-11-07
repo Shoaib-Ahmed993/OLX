@@ -14,7 +14,7 @@ function ProductItem() {
         <div>
             <Header />
             <div className="img-fluid">
-                <img src="https://tpc.googlesyndication.com/simgad/17262568290123202459" style={{ margin: "0 12% 8% 12%" }} />
+                <img src="https://tpc.googlesyndication.com/simgad/17262568290123202459" alt="ad" style={{ margin: "0 12% 8% 12%" }} />
             </div>
             <div className="container" style={{ marginBottom: "10%" }}>
                 <div className="row flex">

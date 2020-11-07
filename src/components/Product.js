@@ -3,9 +3,6 @@ import Data from '../Data.json'
 import { Link } from 'react-router-dom'
 
 function Product(props) {
-    console.log(Data)
-    // console.log(this.props)
-
 
     if ("placeholder" in props) {
         return (
@@ -13,7 +10,7 @@ function Product(props) {
                 <Link to={`/product/data1`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data1.image} height={160} width={250} />
+                            <img src={Data.data1.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data1.price}</h1>
@@ -34,7 +31,7 @@ function Product(props) {
                 <Link to={`/product/data2`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data2.image} height={160} width={250} />
+                            <img src={Data.data2.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data2.price}</h1>
@@ -55,7 +52,7 @@ function Product(props) {
                 <Link to={`/product/data3`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data3.image} height={160} width={250} />
+                            <img src={Data.data3.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data3.price}</h1>
@@ -76,7 +73,7 @@ function Product(props) {
                 <Link to={`/product/data4`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data4.image} height={160} width={250} />
+                            <img src={Data.data4.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data4.price}</h1>
@@ -97,7 +94,7 @@ function Product(props) {
                 <Link to={`/product/data5`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data5.image} height={160} width={250} />
+                            <img src={Data.data5.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data5.price}</h1>
@@ -118,7 +115,7 @@ function Product(props) {
                 <Link to={`/product/data6`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data6.image} height={160} width={250} />
+                            <img src={Data.data6.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data6.price}</h1>
@@ -139,7 +136,7 @@ function Product(props) {
                 <Link to={`/product/data7`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data7.image} height={160} width={250} />
+                            <img src={Data.data7.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data7.price}</h1>
@@ -160,7 +157,7 @@ function Product(props) {
                 <Link to={`/product/data8`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data8.image} height={160} width={250} />
+                            <img src={Data.data8.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data8.price}</h1>
@@ -181,7 +178,7 @@ function Product(props) {
                 <Link to={`/product/data9`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data9.image} height={160} width={250} />
+                            <img src={Data.data9.image}  alt="Product"height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data9.price}</h1>
@@ -202,7 +199,7 @@ function Product(props) {
                 <Link to={`/product/data10`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data10.image} height={160} width={250} />
+                            <img src={Data.data10.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data10.price}</h1>
@@ -223,7 +220,7 @@ function Product(props) {
                 <Link to={`/product/data11`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data11.image} height={160} width={250} />
+                            <img src={Data.data11.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data11.price}</h1>
@@ -244,7 +241,7 @@ function Product(props) {
                 <Link to={`/product/data12`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data12.image} height={160} width={250} />
+                            <img src={Data.data12.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data12.price}</h1>
@@ -265,7 +262,7 @@ function Product(props) {
                 <Link to={`/product/data13`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data13.image} height={160} width={250} />
+                            <img src={Data.data13.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data13.price}</h1>
@@ -286,7 +283,7 @@ function Product(props) {
                 <Link to={`/product/data14`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data14.image} height={160} width={250} />
+                            <img src={Data.data14.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data14.price}</h1>
@@ -307,7 +304,7 @@ function Product(props) {
                 <Link to={`/product/data15`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data15.image} height={160} width={250} />
+                            <img src={Data.data15.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data15.price}</h1>
@@ -328,7 +325,7 @@ function Product(props) {
                 <Link to={`/product/data16`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data16.image} height={160} width={250} />
+                            <img src={Data.data16.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data16.price}</h1>
@@ -349,7 +346,7 @@ function Product(props) {
                 <Link to={`/product/data17`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data17.image} height={160} width={250} />
+                            <img src={Data.data17.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data17.price}</h1>
@@ -370,7 +367,7 @@ function Product(props) {
                 <Link to={`/product/data18`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data18.image} height={160} width={250} />
+                            <img src={Data.data18.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data18.price}</h1>
@@ -391,7 +388,7 @@ function Product(props) {
                 <Link to={`/product/data19`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data19.image} height={160} width={250} />
+                            <img src={Data.data19.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data19.price}</h1>
@@ -412,7 +409,7 @@ function Product(props) {
                 <Link to={`/product/data20`} className="noul">
                     <div className="ad-item">
                         <div className="poster " >
-                            <img src={Data.data20.image} height={160} width={250} />
+                            <img src={Data.data20.image} alt="Product" height={160} width={250} />
                         </div>
                         <div className="title  " >
                             <h1 className="fontb s22 color">{Data.data20.price}</h1>

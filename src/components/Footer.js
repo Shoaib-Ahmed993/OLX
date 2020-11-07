@@ -42,8 +42,8 @@ function Footer() {
                     </div>
                     <br /> <br />
                     <div className="flex">
-                        <a href="#" className="noul bl"><img className="store" src="//statics.olx.com.pk/external/base/img/appstore.png" width={100} alt="" /></a>
-                        <a href="#" className="noul bl ml-2"><img className="store" src="//statics.olx.com.pk/external/base/img/playstore.webp" width={100} alt="" /></a>
+                        <a href="#" className="noul bl"><img className="store" src="//statics.olx.com.pk/external/base/img/appstore.png" width={100} alt="app store" /></a>
+                        <a href="#" className="noul bl ml-2"><img className="store" src="//statics.olx.com.pk/external/base/img/playstore.webp" width={100} alt="play store" /></a>
                     </div>
                 </div>
             </div>
